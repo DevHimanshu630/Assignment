@@ -1,12 +1,37 @@
-# React + Vite
+Audio & Video Recorder React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+- Record audio or video from your device
+- Toggle between audio and video mode
+- Preview your recording before downloading
+- Download your recording as a .webm file
+- Timer shows recording duration
+- Handles permission errors gracefully
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Clone or Download this repository/folder.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+ 
+   npm install
+
+3. Start the development server
+
+   npm run dev
+
+
+4. Open your browser and go to the URL shown in your terminal (usually [http://localhost:5173](http://localhost:5173)).
+
+---
+
+## How to Use
+
+1. **Choose Mode**: Click the "Audio" or "Video" button to select what you want to record.
+2. **Start Recording**: Click the "Start Recording" button. Grant permission to use your microphone (and camera for video).
+3. **Stop Recording**: Click "Stop Recording" when done.
+4. **Preview**: Watch or listen to your recording in the preview section.
+5. **Download**: Click the "Download" link to save your recording as a .webm file.
+
+
